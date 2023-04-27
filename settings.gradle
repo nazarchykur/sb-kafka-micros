@@ -1,2 +1,5 @@
 rootProject.name = 'sb-kafka-micros'
 
+include 'order-service'
+include 'stock-service'
+include 'email-service'

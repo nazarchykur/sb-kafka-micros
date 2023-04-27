@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+//    id 'java-library'
     id 'org.springframework.boot' version '3.0.6'
     id 'io.spring.dependency-management' version '1.1.0'
 }
@@ -7,6 +8,7 @@ plugins {
 group = 'com.example'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
+targetCompatibility = '17'
 
 configurations {
     compileOnly {
@@ -15,14 +17,23 @@ configurations {
 }
 
 repositories {
+    mavenLocal()
     mavenCentral()
 }
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.kafka:spring-kafka'
+
+//    implementation 'com.example:base-domains:0.0.1-SNAPSHOT'
+//    implementation project(':base-domains')
+//    api project(path: ':base-domains')
+
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
+
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.springframework.kafka:spring-kafka-test'
 }
 
 tasks.named('test') {
