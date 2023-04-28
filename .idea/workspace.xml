@@ -5,17 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9894aff1-99d0-4c85-9eb3-d7d1c891bec3" name="Changes" comment="added empty services">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-service/src/main/java/com/example/emailservice/EmailConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-service/src/main/java/com/example/emailservice/KafkaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-service/src/main/java/com/example/emailservice/dto/OrderDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/email-service/src/main/java/com/example/emailservice/dto/OrderEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock-service/machinet.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/f/2f622293fc9ee3898f9d67b4580d20c449b118ad" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60e30481a80e7d9a9fdb28421b61b4bcfc2e09a4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b13eb728ba7c8a4cf8412ce2107d51980c61ec90" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/cc783d18f0f55ab99276dd240a4f8b8d9ff27ded" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/f/2f622293fc9ee3898f9d67b4580d20c449b118ad" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/0/60e30481a80e7d9a9fdb28421b61b4bcfc2e09a4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/1/b13eb728ba7c8a4cf8412ce2107d51980c61ec90" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/c/cc783d18f0f55ab99276dd240a4f8b8d9ff27ded" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/email-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/email-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock-service/src/main/java/com/example/stockservice/OrderConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-service/src/main/java/com/example/stockservice/OrderConsumer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +86,17 @@
                 <item name="email-service" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="email-service" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="email-service" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -459,7 +473,7 @@
       <workItem from="1682607173646" duration="102000" />
       <workItem from="1682607282308" duration="886000" />
       <workItem from="1682608262218" duration="9820000" />
-      <workItem from="1682677288584" duration="725000" />
+      <workItem from="1682677288584" duration="6309000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1682515409344</created>
